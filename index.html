@@ -4,11 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conversor de Monedas</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <select name="indicadores" id="indicadores">
-    <option value="">Seleccione moneda</option>
-  </select>
+  <main>
+    <section class="title">
+      <hr>
+      <h1>Conversor de monedas Nacional</h1>
+      <hr>
+    </section>
+    <section class="box">
+        <h1>Pesos CLP</h1>
+        <input type="number" id="clp" placeholder="Ingrese el monto en CLP">
+        <h4>Moneda a convertir:</h4>
+        <select id="indicators">
+          <option value="">Seleccione moneda</option>
+        </select>
+        <button>Buscar</button>
+        <h3 id="result">...</h3>
+    </section>
+  </main>
+  
   <script src="./assets/js/script.js"></script>
 </body>
 </html>
