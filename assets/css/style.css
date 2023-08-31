@@ -58,3 +58,7 @@ button {
   color: #FFFFFF;
   font-size: 1.4rem;
 }
+.indicatorChart{
+  margin-top: 20px;
+  min-height: 500px;
+}
