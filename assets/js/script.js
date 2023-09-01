@@ -54,10 +54,10 @@ async function renderChart(){
   myChart = new Chart(indicatorChart, {
     type: 'line',
     data: {
-      labels: labels,
+      labels: labels.reverse(),
       datasets: [{
         label: selectIndicators.options[selectIndicators.selectedIndex].text,
-        data: values,
+        data: values.reverse(),
         backgroundColor: 'rgba(255, 255, 255, 0.2)',
         borderColor: 'rgba(75, 192, 192, 1)',
         borderWidth: 1
