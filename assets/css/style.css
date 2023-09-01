@@ -13,8 +13,8 @@ main {
   font-weight: normal;
   background-color: #212529;
   color: #FFFFFF;
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 .title{
   padding-top: 20px;
@@ -36,14 +36,14 @@ hr {
   max-width: 80%;
 }
 input {
-  height: 4rem;
+  height: 3rem;
   width: 100%;
   border-radius: 5px;
   font-size: 1.3rem;
   text-align: center;
 }
 select {
-  height: 5rem;
+  height: 3rem;
   width: 100%;
   border-radius: 5px;
   font-size: 1.3rem;
@@ -52,7 +52,7 @@ select {
 button {
   background-color: #0DCAF0;
   width: 100%;
-  height: 25%;
+  height: 3rem;
   border-radius: 5px;
   border-color: #0DCAF0;
   color: #FFFFFF;
@@ -60,5 +60,5 @@ button {
 }
 .indicatorChart{
   margin-top: 20px;
-  min-height: 500px;
+  min-height: 320px;
 }
